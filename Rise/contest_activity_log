@@ -1,0 +1,16 @@
+17/10/17
+
+-started competition
+-dataset- split
+
+18/10/17-19/10/17
+-initially tried lda and neural nets together
+*acc:12%
+*no_iter in training neural net seems limited, so increased possible number of iterations.
+*need to find the sweet point for components
+-made first submission
+*used pca 1500 components, and neural net(hidden_layer_sizes=(500,200 ), activation='relu', solver='adam', 
+	alpha=0.00005, batch_size='auto', learning_rate='constant', learning_rate_init=0.0005, 
+	power_t=0.5, max_iter=7500, shuffle=True, random_state=None, tol=0.0001, verbose=False, 
+	warm_start=False, momentum=0.9, nesterovs_momentum=True, early_stopping=False, 
+	validation_fraction=0.1, beta_1=0.9, beta_2=0.999, epsilon=1e-08))
