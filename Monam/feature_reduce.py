@@ -35,3 +35,4 @@ print(features_train.shape)
 
 csv_writer(features_train,"../Dataset/train_mean_750_pca.csv","wb")
 csv_writer(features_test,"../Dataset/test_mean_750_pca.csv","wb")
+
